@@ -18,7 +18,11 @@ jobs:
 
     - name: Perform cppcheck analysis
       # This is the commit following v0.0.10
+<<<<<<< HEAD
       uses: ikerexxe/action-cppcheck@fix_action
+=======
+      uses: linuxdeepin/action-cppcheck@main
+>>>>>>> 6764e70 (Bla)
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ github.repository }}
